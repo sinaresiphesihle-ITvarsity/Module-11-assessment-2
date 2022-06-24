@@ -1,0 +1,91 @@
+/************the body********/
+html{
+    font-size: 14px;
+}
+
+@media(min-width: 768px) {
+    html{
+        font-size: 16px;
+    }
+}
+/****************************/
+
+/******Blog header*********/
+.blog-header{
+    margin-top: 10rem;
+    max-width: 700px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media(max-width: 768px){
+    .blog-header{
+        margin-top: 8rem;
+    }
+}
+/***************************/
+.container{
+    max-width: 960px;
+}
+
+/********Thumnail*********/
+.team{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+/***************************/
+
+/********Cards************/
+.card-deck .card{
+    min-width: 220px;
+}
+
+.card-text{
+    padding-top: 1rem;
+}
+
+.card-block{
+    min-height: 220px;
+}
+/************************/
+ 
+/****************Displaying the food**********************/
+.pizza{
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+.pizza p{
+    margin-top: 4px;
+    border: solid black 3px;
+    border-radius: 15px;
+    text-align: center;
+    font-family:inherit;
+    font-size: 20px;
+}
+.pizza i{
+  margin-left: 48%;
+}
+.food-header{
+    margin-top: 150px;
+    border: solid black 3px;
+    border-radius: 15px;
+    text-align: center;
+    font-family:inherit;
+    font-size: 10px;
+    margin-bottom: 2rem;
+}
+/***********************Menu***************************/
+i{
+    font-size: 15px;
+}
+
+.menu h4{
+    text-align: center;
+}
+
+.col{
+   text-align: center;
+}
